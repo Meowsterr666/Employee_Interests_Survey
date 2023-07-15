@@ -17,7 +17,7 @@ a {
   box-sizing: border-box;
 }
 
-h4 {
+h3 {
   line-height: 1;
   margin-bottom: 0;
 }
@@ -27,12 +27,14 @@ p {
   margin-top: 5px; 
   color: rgb(220, 220, 220);
 }
+
 .footer_card {
+  font-family: cursive, serif, sans-serif;
   margin: 0 auto;
   position: sticky;
-  width: 580px;
+  width: 670px;
   display: grid;
-  grid-template-columns: 80px 350px 150px;
+  grid-template-columns: 70px 380px 1fr;
   grid-template-rows: 80px;
   align-items: center;
   justify-items: center;
@@ -46,13 +48,23 @@ p {
   height: 100%;
 }
 
-.footer_card img { height: 80px;}
+.footer_card img { 
+  height: 80px;
+  margin-left: 10px;
+}
+
+.quote {
+  margin-right: 30px;
+}
 
 .contact_button {
+  text-align: center;
+  width: 100%;
+  font-family: cursive;
   border: 1px solid transparent;
   border-radius: 5px;
-  margin: 0px;
-  padding: 10px 20px 10px 20px;
+  margin: 0px 0px 0px 30px;
+  padding: 10px 10px 10px 10px;
 }
 
 .contact_button:hover {
