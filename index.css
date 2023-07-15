@@ -1,8 +1,8 @@
 body {
   letter-spacing: 0;
   padding: 0;
-  line-height: 1.1;
-  margin: 0px 0px 0px 50px;
+  line-height: 2;
+  margin: 0px 0px 120px 50px;
 }
 
 label {
@@ -27,19 +27,17 @@ p {
   margin-top: 5px; 
   color: rgb(220, 220, 220);
 }
-
 .footer_card {
-  height: 100%;
+  margin: 0 auto;
+  position: sticky;
   width: 580px;
   display: grid;
   grid-template-columns: 80px 350px 150px;
   grid-template-rows: 80px;
-  margin: 50px 50px 0px 50px;
   align-items: center;
   justify-items: center;
   background-color: rgb(60, 122, 255);
   color: rgb(255, 255, 255);
-  align-content: center;
   border-radius: 5px;
   border: 1px solid transparent;
 }
@@ -56,3 +54,17 @@ p {
   margin: 0px;
   padding: 10px 20px 10px 20px;
 }
+
+.contact_button:hover {
+  background-color: antiquewhite;
+}
+
+.contact_button:active {
+  box-shadow: inset -2px -2px 3px rgba(232, 232, 232, 0.6), inset 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#sticky {
+  position: fixed;
+  top: 620px;
+}
+
